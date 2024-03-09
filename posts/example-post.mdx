@@ -1,8 +1,16 @@
 ---
 title: Como funciona formatação em arquivos de documentação? O que é o MDX?
-description: "Um pouco sobre o formato de texto MD, é usado para documentação de projetos entre outras coisas."
-date: May 8 2021
+description: "Um pouco sobre o formato de texto MD, utilizado na documentação de projetos entre outras coisas."
+date: 09 de Março de 2024
 ---
+
+Markdown é comumente usado para criar conteúdo com muito texto, como postagens de blog e documentação. o Astro também oferece suporte a arquivos MDX (.mdx), que trazem recursos adicionais, como suporte para expressões JavaScript e componentes em seu conteúdo Markdown.
+
+Futuramente vou fazer um novo post referente ao Astro, que é a estrutura da web para a construção de sites baseados em conteúdo, como blogs, marketing e comércio eletrônico.
+
+Você pode acessar o meu repositório para ver o código que foi escrito nessa página [através desse link](https://github.com/hugomacielads/nextjs-blog-hugomaciel/blob/main/posts/example-post.mdx).
+
+Vamos lá!
 
 Utilizamos o # para indicar um cabeçalho
 
@@ -19,7 +27,7 @@ Utilizamos o # para indicar um cabeçalho
 ###### h6 cabeçalho
 
 ## Linhas Horizontais
-Utilizamos 3 traços para indicar linhas como essa:
+Utilizamos --- (três traços) para indicar linhas como essa:
 
 ---
 
@@ -27,13 +35,17 @@ Utilizamos 3 traços para indicar linhas como essa:
 ## Ênfase
 
 Utilizamos ** (dois asteriscos) antes e depois do texto que queremos deixar em negrito.
+
 **Esse é um texto em negrito**
 
 Utilizamos _ (underline) antes e depois do texto que queremos deixar em itálico.
+
 _Esse é um texto em itálico_
 
 Utilizamos ~~ (dois til) antes e depois do texto que queremos 
+
 ~~Esse é um texto tachado~~
+
 
 ## Citações em bloco
 
@@ -42,6 +54,7 @@ Utilizamos ~~ (dois til) antes e depois do texto que queremos
 > > ...usando sinais adicionais de maior (>) um ao lado do outro ...
 > >
 > > > ...ou com espaços entre as setas.
+
 
 ## Listas
 
@@ -61,6 +74,7 @@ Ordenada
 2. Exemplo 2.
 3. Exemplo 3.
 
+
 ## Código
 
 Bloco de código utilizamos ``` (três acentos grave) antes e depois do código que queremos destacar:
@@ -79,6 +93,9 @@ var resultado = soma(a, b) {
 console.log(soma(5, 5));
 ```
 
+Atualmente apenas a linguagem JavaScript tem o suporte para sintaxe destacada.
+
+
 ## Tabelas
 
 As colunas serão indicadas com | (barra vertical) e as linhas com quebras de linha normais.
@@ -88,6 +105,7 @@ As colunas serão indicadas com | (barra vertical) e as linhas com quebras de li
 | Dados  | Exemplo de dados em uma tabela de duas colunas                            |
 | Barras | É importante que as barras estejam alinhadas no código                    |
 | Facil  | Muito fácil também!!                                                      |
+
 
 ## Links
 
