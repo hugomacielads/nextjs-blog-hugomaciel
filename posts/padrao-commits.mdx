@@ -4,7 +4,11 @@ description: "Como mapear a construção de seu projeto através dos commits"
 date: 30 de Abril de 2024
 ---
 
-Durante a entrega do Projeto pesquisei a respeito de padronização de commits e encontrei um repositório muito interessante que me deu ótimas dicas:
+Durante a entrega do Projeto pesquisei a respeito de padronização de commits e encontrei um repositório muito interessante que me deu ótimas dicas.
+
+[**Padrões de commits (iuricode)**](https://github.com/iuricode/padroes-de-commits)
+
+O conteúdo apresentado no repositório segue a documentação do Conventional Commits. Essa convenção define um conjunto de regras para criar um histórico de commit explícito, o que facilita a criação de ferramentas automatizadas.
 
 - `feat`- Trecho de código que está incluindo um **novo recurso**.
 
@@ -16,6 +20,8 @@ Durante a entrega do Projeto pesquisei a respeito de padronização de commits e
 
 - `build` - Modificações em **arquivos de build e dependências**.
 
+Esses commits auxiliarão você e sua equipe a entenderem de forma facilitada quais alterações foram realizadas no trecho de código que foi commitado.
+
 Ele ainda traz ótimas recomendações de escrita e exmplos
 
 - Adicione um tipo consistente com o título do conteúdo.
@@ -24,17 +30,18 @@ Ele ainda traz ótimas recomendações de escrita e exmplos
 - Usar um emoji no início da mensagem de commit representando sobre o commit.
 - Os links precisam ser adicionados em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados.
 
-Dê uma olhada no PR entregue e como os commits ficaram disponíveis de uma forma organizada
+Dê uma olhada no PR entregue e como os commits ficaram disponíveis de uma forma organizada.
 
 [Pull Request - Entrega do Projeto](https://github.com/afrocodigos/TB-Java-Projeto-Guiado-I/pull/1)
 
-
 Exemplos:
-| Comando Git                                                   | Resultado no GitHub
-| git commit -m ":tada: Commit inicial"                         | 🎉 Commit inicial
-| git commit -m ":books: docs: Atualização do README"	        | 📚 docs: Atualização do README
-| git commit -m ":bug: fix: Loop infinito na linha 50"	        | 🐛 fix: Loop infinito na linha 50
-| git commit -m ":sparkles: feat: Página de login"	            | ✨ feat: Página de login
-| git commit -m ":bricks: ci: Modificação no Dockerfile"	    | 🧱 ci: Modificação no Dockerfile
-| git commit -m ":lipstick: feat: Estilização CSS do formulário"| 💄 feat: Estilização CSS do formulário
-| git commit -m ":test_tube: test: Criando novo teste"	        | 🧪 test: Criando novo teste
+
+| Comando Git                                     | Resultado no GitHub                       |
+| ----------------------------------------------- | ----------------------------------------- |
+| :tada: Commit inicial"                          | 🎉 Commit inicial                        |
+| :books: docs: Atualização do README"	          | 📚 docs: Atualização do README           |
+| :bug: fix: Loop infinito na linha 50"	          | 🐛 fix: Loop infinito na linha 50        |
+| :sparkles: feat: Página de login"	              | ✨ feat: Página de login                 |
+| :bricks: ci: Modificação no Dockerfile"	      | 🧱 ci: Modificação no Dockerfile         |
+| :lipstick: feat: Estilização CSS do formulário" | 💄 feat: Estilização CSS do formulário   |
+| :test_tube: test: Criando novo teste"	          | 🧪 test: Criando novo teste              |
